@@ -13,25 +13,23 @@ public class TunePlz extends CordovaPlugin {
 
 
     @Override
-    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+    public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
 
 
         try {
             if (ACTION_ADD_TUNE_PLZ.equals(action)) {
                 JSONObject arg_object = args.getJSONObject(0);
                
-             Intent calIntent = new Intent(this, MainRecSoundActivity.class);
             
-               
-                this.cordova.getActivity().startActivity(calIntent);
                 //Sur le UI Thread
                 cordova.getActivity().runOnUiThread(new Runnable() {
                 public void run() {
                          // Main Code goes here
-                    Intent intent = new Intent(this, MainRecSoundActivity.class);
+                   
+                   new  MainRecSoundActivity();
                     
                     
-                    startActivity(intent);
+                   
                     
                          callbackContext.success(); 
                      }
