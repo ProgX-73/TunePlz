@@ -8,7 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 
-public class TunePlug extends CordovaPlugin {
+public class TunePlz extends CordovaPlugin {
     public static final String ACTION_ADD_TUNE_PLZ = "tunePlz";
 
 
