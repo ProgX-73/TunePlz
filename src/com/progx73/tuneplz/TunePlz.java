@@ -6,7 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import android.app.Activity;
 import android.content.Intent;
-
+import MainRecSoundActivity;
 
 public class TunePlz extends CordovaPlugin {
     public static final String ACTION_ADD_TUNE_PLZ = "tunePlz";
