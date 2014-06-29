@@ -19,6 +19,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/com/progx73/TunePlz.java.java" target-dir="src/com/progx73/tuneplz" />
+        <source-file src="src/com/progx73/TunePlz.java" target-dir="src/com/progx73/tuneplz" />
     </platform>
 </plugin>
