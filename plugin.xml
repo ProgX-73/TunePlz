@@ -15,10 +15,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="TunePlz">
-                <param name="android-package" value="tuneplz" />
+                <param name="android-package" value="com.progx73.tuneplz.TunePlz />
             </feature>
         </config-file>
 
-        <source-file src="src/com/progx73/TunePlz.java" target-dir="src/com/progx73/tuneplz" />
+        <source-file src="src/com/progx73/tuneplz/TunePlz.java" target-dir="src/com/progx73/tuneplz" />
     </platform>
 </plugin>
