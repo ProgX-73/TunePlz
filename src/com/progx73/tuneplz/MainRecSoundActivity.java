@@ -18,7 +18,7 @@ import java.util.Date;
 import static com.progx73.mysoundapplication.sound.FFT.*;
 
 
-public class MainRecSoundActivity extends ActionBarActivity {
+public class MainRecSoundActivity extends Activity {
 
     int echant = 44000;
     short audiobuffer[] = new short[4096];
