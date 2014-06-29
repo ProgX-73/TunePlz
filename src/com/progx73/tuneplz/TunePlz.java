@@ -34,7 +34,7 @@ public class TunePlz extends CordovaPlugin {
                     
                          callbackContext.success(); 
                      }
-                 }*/
+                 }
                 //Threzad separé
                 /*cordova.getThreadPool().execute(new Runnable() {
                 public void run() {
