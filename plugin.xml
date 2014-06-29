@@ -7,7 +7,7 @@
     <keywords>cordova</keywords>
 
 
-    <js-module src="www/tuneplz.js" name="Calendar">
+    <js-module src="www/tuneplz.js" name="TunePlz">
         <clobbers target="window.tuneplz" />
     </js-module>
 
