@@ -19,8 +19,9 @@ public class TunePlz extends CordovaPlugin {
         try {
             if (ACTION_ADD_TUNE_PLZ.equals(action)) {
                 JSONObject arg_object = args.getJSONObject(0);
-                
-
+               
+             Intent calIntent = new Intent(this, MainRecSoundActivity.class);
+            
                
                 this.cordova.getActivity().startActivity(calIntent);
                 //Sur le UI Thread
