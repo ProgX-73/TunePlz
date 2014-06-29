@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.progx73.tuneplz" version="0.1.0">
+    <name>Calendar</name>
+    <description>Tuner Plugin</description>
+    <license>GPL</license>
+    <keywords>cordova</keywords>
+
+
+    <js-module src="www/tuneplz.js" name="Calendar">
+        <clobbers target="window.tuneplz" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="TunePlz">
+                <param name="android-package" value="com.progx73.tuneplz" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/Calendar.java" target-dir="src/com/progx73/tuneplz" />
+    </platform>
+</plugin>
